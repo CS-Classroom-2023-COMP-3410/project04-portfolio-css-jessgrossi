@@ -1,8 +1,11 @@
-/* General Styles */
+/* General Body Styles */
 body {
-    background-color: ivory;
-    margin: 0;
     font-family: Arial, sans-serif;
+    background-color: ivory;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 /* Title Section */
@@ -18,15 +21,13 @@ body {
 
 .title-section h1 {
     color: ivory;
-    margin: 0;
 }
 
 .title-section p {
     color: ivory;
-    margin: 5px 0;
 }
 
-/* Navigation Section */
+/* Navigation Links Section */
 .navigation {
     margin: 20px auto;
     background-color: rosybrown;
@@ -34,7 +35,6 @@ body {
     padding: 5px 10px;
     width: 1000px;
     border-radius: 10px;
-    text-align: center;
 }
 
 .navigation a {
@@ -44,6 +44,34 @@ body {
 }
 
 .navigation a:hover {
+    text-decoration: underline;
+}
+
+/* Introduction Section */
+.introduction-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.text-content h1 {
+    color: olive;
+}
+
+.text-content a {
+    color: rosybrown;
+    text-decoration: none;
+}
+
+.text-content a:hover {
     text-decoration: underline;
 }
 
@@ -73,6 +101,88 @@ body {
     color: olive;
 }
 
+.image-content {
+    flex: 1;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Contact Me Section */
+.contact-me-section {
+    margin: 20px auto;
+    width: 700px;
+}
+
+.contact-me-section h3 {
+    color: darkolivegreen;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact-info img {
+    width: 50px;
+    height: 30px;
+}
+
+.contact-info a {
+    color: rosybrown;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+    margin: 20px auto;
+    padding: 20px;
+    width: 700px;
+    background-color: #fff8f0;
+    border: 2px solid rosybrown;
+    border-radius: 10px;
+}
+
+.contact-form-section h2 {
+    color: darkolivegreen;
+}
+
+.contact-form-section label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form-section input,
+.contact-form-section textarea {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form-section button {
+    background-color: rosybrown;
+    color: ivory;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form-section button:hover {
+    background-color: darkolivegreen;
+}
+
 /* Footer Section */
 .footer {
     margin-top: 20px;
@@ -86,3 +196,4 @@ body {
     left: 50%;
     transform: translateX(-50%);
 }
+
