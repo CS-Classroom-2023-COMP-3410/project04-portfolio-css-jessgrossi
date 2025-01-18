@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    background-color: ivory;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Title Section */
+.title-section {
+    margin: 20px auto;
+    background-color: darkolivegreen;
+    padding: 5px 10px;
+    display: block;
+    width: 1000px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.title-section h1 {
+    color: ivory;
+    margin: 0;
+}
+
+.title-section p {
+    color: ivory;
+    margin: 5px 0;
+}
+
+/* Navigation Section */
+.navigation {
+    margin: 20px auto;
+    background-color: rosybrown;
+    color: ivory;
+    padding: 5px 10px;
+    width: 1000px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.navigation a {
+    color: ivory;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+/* Image and Quote Section */
+.image-quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+}
+
+.image-quote-section img {
+    max-width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.image-quote-section blockquote {
+    margin: 0;
+    color: olive;
+}
+
+.image-quote-section blockquote footer {
+    margin-top: 5px;
+    font-style: italic;
+    color: olive;
+}
+
+/* Footer Section */
+.footer {
+    margin-top: 20px;
+    background-color: saddlebrown;
+    color: ivory;
+    padding: 10px;
+    text-align: center;
+    width: 1000px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
